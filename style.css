@@ -493,3 +493,7 @@ height: 27.5em;
 .img-border {
     border: 1px solid;
 }
+
+.fakeclass {
+    display: none;
+}
