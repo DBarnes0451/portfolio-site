@@ -109,11 +109,7 @@ h2 {
     padding-top: 1.25em;
 }
 
-@media (max-width: 48em) {
-    h2 {
-        font-size: 3.5em;
-    }
-}
+
 
 h3 {
     font-family: "Playfair Display", serif;
@@ -124,11 +120,7 @@ h3 {
     margin-left: 0em;
 }
 
-@media (max-width: 48em) {
-    h3 {
-        font-size: 3.5em;
-    }
-}
+
 
 h4 {
     font-family: "Playfair Display", serif;
@@ -361,6 +353,10 @@ margin-bottom: 1.875em;
         justify-content: space-around;
     }
 
+    .adobe-container {
+        flex-wrap: wrap;
+    }
+
     .skill {
         display: flex;
         flex-direction: column;
@@ -370,29 +366,7 @@ margin-bottom: 1.875em;
     }
 
   
-    @media (min-width: 62.0625em) {
    
-
-    @media (max-width: 62em) {
-        h1 {
-         font-size: 7.5rem;   
-        }
-    }
-    @media (max-width: 36em) {
-        .skills-container {
-            flex-wrap: wrap;
-        }
-        .nav-list {
-            flex-wrap: wrap;
-            max-width: 18.75em;
-            margin: 0em auto;
-            color: white
-        }
-        h1 {
-            margin-left: 0.9375em;
-            font-size: 4.5rem;
-        }
-    }
 
     
 
@@ -422,11 +396,11 @@ margin-bottom: 1.875em;
     
 
     .flex-alignment {
-        display: flex; /* establish flex container */
+        display: flex; 
         flex-wrap: wrap;
-        flex-direction: row; /* make main axis horizontal (default value) */
-        justify-content: center; /* center items horizontally, in this case */
-        align-items: center; /* center items vertically, in this case */
+        flex-direction: row; 
+        justify-content: center; 
+        align-items: center; 
     
     }
 
@@ -445,19 +419,19 @@ margin-bottom: 1.875em;
 }
 
 .edu-flex-alignment {
-    display: flex; /* establish flex container */
-    flex-direction: row; /* make main axis horizontal (default value) */
-    justify-content: center; /* center items horizontally, in this case */
-    align-items: center; /* center items vertically, in this case */
+    display: flex; 
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
 
 }
 
 .exp-flex-alignment {
-    display: flex; /* establish flex container */
+    display: flex; 
     flex-wrap: wrap;
-    flex-direction: row; /* make main axis horizontal (default value) */
-    justify-content: center; /* center items horizontally, in this case */
-    align-items: flex-start; /* center items vertically, in this case */
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: flex-start; 
     align-content: space-between;
 
 
@@ -471,11 +445,11 @@ margin-bottom: 1.875em;
 }
 
 .skills-flex-alignment {
-    display: flex; /* establish flex container */
+    display: flex; 
     flex-wrap: wrap;
-    flex-direction: row; /* make main axis horizontal (default value) */
-    justify-content: center; /* center items horizontally, in this case */
-    align-items: center; /* center items vertically, in this case */
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
 
 }
 
@@ -494,3 +468,28 @@ height: 27.5em;
     border: 1px solid;
 }
 
+.cv-flex-alignment {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+
+}
+
+.cv-flex-column {
+    min-width: 31.25em;
+    margin: 1em;
+    text-align: left;
+    min-height: 27.5em;
+    padding: 1em;
+    }
+
+.adobe {
+    flex: 33% 0 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+  }
